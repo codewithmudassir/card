@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200&family=Poppins:ital,wght@0,200;1,500&display=swap');
+body{
+    background-color: rgb(221, 208, 208);
+}
+.card{
+    width: 220px;
+    height: 320px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+    margin: 50px;
+    position: relative;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2) ;
+    transition: 0.3s;
+}
+.image img{
+    border-radius: 50%;
+    width: 150px;
+    padding: 4px;
+    margin-left: 27px;
+    margin-top: 10px;
+    border: 3px solid black;
+}
+.container{
+    margin-top: -15px;
+}
+.container h1{
+    font-size: x-large;
+    text-align: center;
+    font-weight: 800px;
+    font-family: 'Poppins', sans-serif;
+}
+.container p{
+    text-align: center;
+    font-size: 15px;
+    font-weight: 800px;
+    font-family: 'Nunito', sans-serif;
+}
+.button{
+    display: inline-block;
+   text-align: center;
+   background-color: rgb(208, 225, 249);
+   border-radius: 70px;
+   margin-left: 65px;
+   padding: 10px;
+}
+.button a{
+    text-decoration: none;
+    color: darkblue;
+    font-weight: 400px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    
+}
+.button a:hover{
+    /* background-color: red; */
+    color: white;
+}
